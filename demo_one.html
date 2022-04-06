@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>家乡的春节---网站首页</title>
+		<style type="text/css">
+			* {
+				padding: 0px;
+				margin: 0px;
+			}
+			.father{
+				width: 1080px;
+				/* height: 5000px; */
+				margin: 0px auto;
+			}
+			.box_one{
+				width: 1065px;
+				height: 230px;
+				background-image: url(img/8.png);
+				filter: brightness(190%);
+				position: relative;
+				left: 5px;
+				/* position: fixed; */
+				/* left: 740px; */
+				z-index: 5;
+			}
+			.imgleft img{
+				position: relative;
+				left: -130px;
+				height: 210px;
+				float: left;
+			}
+			.imgleft img:hover{
+				filter: brightness(130%);
+			}
+			.imgright img{
+				height: 210px;
+				float: right;
+				right: -130px;
+				position: relative;
+			}
+			.imgright img:hover{
+				filter: brightness(130%);
+			}
+			.danghang ul li{
+				float: left;
+				height: 230px;
+				line-height: 230px;
+				list-style: none;
+				font-size: 25px;
+				padding-left: 42px;
+			}
+			.danghang ul li a{
+				text-decoration: none;
+				color: white;
+			}
+			.danghang ul li a:hover{
+				color: #ffff00;
+			}
+			.box_two{
+				/* top: 230px; */
+				width: 1080px;
+				height: 550px;
+				position: relative;
+				bottom: 8px;
+			}
+			.box_twoimg img{
+				width: 1080px;
+				height: 550px;
+				filter: brightness(130%);
+			}
+			.box_twoimg img:hover{
+				filter: brightness(250%);
+			}
+			.box_twoimgA img{
+				height: 70px;
+				width: 70px;
+				position: relative;
+				bottom: 550px;left: 988px;
+			}
+			.box_three img{
+				height: 240px;
+				width: 60px;
+				position: relative;
+				bottom: 627px;
+				left: 200px;
+			}
+			.box_four img{
+				float: left;
+				height: 240px;
+				width: 60px;
+				position: relative;
+				bottom: 872px;
+				left: 815px;
+			}
+			.box_wither{
+				width: 1080px;
+				height: 200px;
+				background-color: white;
+				position: relative;
+				bottom: 323px;
+			}
+			.zi{
+				text-align: center;
+			}
+			.zia{
+				font-size: 45px;
+				text-align: center;
+				color: red;
+			}
+			.box_wither>p.zia a:hover{
+				color: green;
+			}
+			.zib{
+				font-size: 25px;
+				text-align: center;
+				color: red;
+				padding-top: 5px;
+			}
+			.box_wither>p.zib a:hover{
+				color: green;
+			}
+			.box_wither hr{
+				width: 500px;
+				margin-left: 307px;
+				margin-top: 10px;
+			}
+			.zic{
+				font-size: 65px;
+				text-align: center;
+				color: red;
+				padding-top: 5px;
+				font-family: "bradley hand itc";
+			}
+			.box_wither>p.zic a:hover{
+				color: green;
+			}
+			.box_wither>p a{
+				text-decoration: none;
+				color: red;
+			}
+			.fu img{
+				position: relative;
+				bottom: 200px;
+				width: 100px;
+				height: 200px;
+				filter: brightness(110%);
+			}
+			.fu img:hover{
+				filter: brightness(180%);
+			}
+			.futwo img{
+				position: relative;
+				bottom: 405px;
+				left: 920px;
+				width: 100px;
+				height: 200px;
+				filter: brightness(110%);
+			}
+			.futwo img:hover{
+				filter: brightness(180%);
+			}
+			#q{
+				position: relative;
+				bottom: 410px;
+				float: left;
+				left: 130px;
+			}
+			#q img{
+				height: 70px;
+				filter: brightness(110%);
+			}
+			#q img:hover{
+				filter: brightness(150%);
+			}
+			#w{
+				position: relative;
+				bottom: 510px;
+				float: left;
+				left: 730px;
+			}
+			#w img{
+				height: 70px;
+				filter: brightness(110%);
+			}
+			#w img:hover{
+				filter: brightness(150%);
+			}
+			#e{
+				position: relative;
+				bottom: 440px;
+				float: left;
+				left: 630px;
+			}
+			#e img{
+				height: 50px;
+				filter: brightness(110%);
+			}
+			#e img:hover{
+				filter: brightness(150%);
+			}
+			#r{
+				position: relative;
+				bottom: 400px;
+				float: left;
+				left: 748px;
+			}
+			#r img{
+				height: 80px;
+				filter: brightness(110%);
+			}
+			#r img:hover{
+				filter: brightness(150%);
+			}
+			#t{
+				position: relative;
+				bottom: 530px;
+				float: left;
+				left: 330px;
+			}
+			#t img{
+				height: 80px;
+				filter: brightness(110%);
+			}
+			#t img:hover{
+				filter: brightness(150%);
+			}
+			.body{
+				width: 1080px;
+				height: 400px;
+				background-color: blue;
+				position: relative;
+				bottom: 408px;
+				float: left;
+			}
+			.body_img img{
+				width: 1080px;
+				height: 400px;
+				filter: brightness(140%);
+				float: left;
+			}
+			.body_img img:hover{
+				filter: brightness(200%);
+			}
+			#y img{
+				float: left;
+				height: 200px;
+				position: relative;
+				bottom: 330px;
+				left: 50px;
+			}
+			#y img:hover{
+				filter: brightness(130%);
+			}
+			#u img{
+				float: left;
+				height: 200px;
+				position: relative;
+				bottom: 330px;
+				left: 86px;
+			}
+			#u img:hover{
+				filter: brightness(130%);
+			}
+			#i img{
+				float: left;
+				height: 200px;
+				position: relative;
+				bottom: 330px;
+				left: 126px;
+			}
+			#i img:hover{
+				filter: brightness(130%);
+			}
+			#yy img{
+				height: 130px;
+				width: 300px;
+				position: relative;
+				bottom: 330px;
+				left: 50px;
+			}
+			#yy img:hover{
+				filter: brightness(120%);
+			}
+			#uu img{
+				height: 130px;
+				width: 307px;
+				position: relative;
+				bottom: 465px;
+				left: 386px;
+			}
+			#uu img:hover{
+				filter: brightness(120%);
+			}
+			#ii img{
+				height: 130px;
+				width: 301px;
+				position: relative;
+				bottom: 599px;
+				left: 733px;
+			}
+			#ii img:hover{
+				filter: brightness(120%);
+			}
+			.body p a{
+				color: red;
+				font-family: 楷体;
+				font-size: 35px;
+			}
+			#one{
+				position: relative;
+				left: 155px;
+				bottom: 688px;
+			}
+			.body p a:hover{
+				color: green;
+			}
+			#two{
+				position: relative;
+				left: 510px;
+				bottom: 725px;
+			}
+			#two a:hover{
+				color: green;
+			}
+			#three{
+				position: relative;
+				left: 825px;
+				bottom: 765px;
+			}
+			#three a:hover{
+				color: green;
+			}
+			.body a{
+				text-decoration: none;
+			}
+			#fua{
+				position: relative;
+				bottom: 1122px;
+				left: 160px;
+			}
+			#fua img:hover{
+				filter: brightness(140%);
+			}
+			#fua img{
+				height: 70px;
+			}
+			#fub{
+				position: relative;
+				bottom: 1196px;
+				left: 510px;
+			}
+			#fub img{
+				height: 70px;
+			}
+			#fub img:hover{
+				filter: brightness(140%);
+			}
+			#fuc{
+				position: relative;
+				bottom: 1270px;
+				left: 860px;
+			}
+			#fuc img{
+				height: 70px;
+			}
+			#fuc img:hover{
+				filter: brightness(140%);
+			}
+			.box_withertwo{
+				width: 1080px;
+				height: 200px;
+				background-color: white;
+				position: relative;
+				top: 76px;
+			}
+			.box_withertwo  span{
+				text-align: center;
+				color: red;
+			}
+			#xione{
+				font-size: 45px;
+				position: relative;
+				left: 70px;
+			}
+			#xitwo{
+				font-size: 25px;
+				position: relative;
+				bottom: 422px;
+				left: 459px;
+			}
+			#xithree{
+				width: 505px;
+				position: relative;
+				bottom: 415px;
+				left: 310px;
+				height: 2px;
+			}
+			#xifour{
+				width: 505px;
+				position: relative;
+				bottom: 406px;
+				left: 380px;
+				height: 2px;
+				font-size: 65px;
+				font-family: "bradley hand itc";
+			}
+			.box_withertwo a{
+				text-decoration: none;
+				color: red;
+			}
+			.box_withertwo a:hover{
+				color: green;
+			}
+			.dongman{
+				position: relative;
+				bottom: 380px;
+				left: 180px;
+				float: left;
+			}
+			.dongman:hover{
+				filter: brightness(160%);
+			}
+			.dongmantwo{
+				position: relative;
+				bottom: 386px;
+				left: 620px;
+				float: left;
+			}
+			.dongmantwo:hover{
+				filter: brightness(160%);
+			}
+			.duilianone img{
+				float: left;
+				height: 200px;
+				position: relative;
+				bottom: 408.5px;
+				right: 240px;
+				filter: brightness(120%);
+			}
+			.duilianone img:hover{
+				filter: brightness(200%);
+			}
+			.duiliantwo img{
+				float: left;
+				height: 200px;
+				position: relative;
+				bottom: 408.5px;
+				left: 640px;
+				filter: brightness(120%);
+			}
+			.duiliantwo img:hover{
+				filter: brightness(200%);
+			}
+			#fiveimg{
+				width: 1080px;
+				height: 589px;
+				background-color: white;	
+			}
+			#fiveimg img{
+				float: left;
+			}
+			
+			.xia img:hover{
+				filter: brightness(140%);
+			}
+			.xia img{
+				filter: brightness(115%);
+				position: relative;	
+				left: -322px;
+			}
+			.xib img{
+				height: 280px;
+				position: relative;
+				bottom: 488px;
+				right: -602px;
+				filter: brightness(115%);
+			}
+			.xic img{
+				height: 230px;
+				position: relative;
+				bottom: 205px;
+				left: -361px;
+				filter: brightness(115%);
+			}
+			.xid img{
+				height: 230px;
+				width: 310px;
+				position: relative;
+				bottom: 205px;
+				left: -357px;
+				filter: brightness(105%);
+			}
+			.xie img{
+				height: 230px;
+				width: 300px;
+				position: relative;
+				bottom: 435px;
+				left: 303px;
+				filter: brightness(115%);
+			}
+			.xia img{
+				height: 280px;
+				position: relative;
+				bottom: 208px;
+				right: 300px;
+			}
+			.xib img:hover{
+				filter: brightness(140%);
+			}
+			
+			.xic img:hover{
+				filter: brightness(140%);
+			}
+			.xid img:hover{
+				filter: brightness(140%);
+			}
+			
+			.xie img:hover{
+				filter: brightness(140%);
+			}
+			.A img{
+				height: 51px;
+				position: relative;
+				bottom: 719px;
+				right: 197px;
+			}
+			.B img{
+				height: 51px;
+				position: relative;
+				bottom: 665px;
+				right: 238px;
+			}
+			.C img{
+				height: 51px;
+				position: relative;
+				bottom: 611px;
+				right: 279px;
+			}
+			.D img{
+				height: 51px;
+				position: relative;
+				bottom: 557px;
+				right: 320px;
+			}
+			.E img{
+				height: 51px;
+				position: relative;
+				bottom: 504px;
+				right: 360px;
+			}
+			.A img:hover{
+				filter: brightness(140%);
+			}
+			.B img:hover{
+				filter: brightness(140%);
+			}
+			.C img:hover{
+				filter: brightness(140%);
+			}
+			.D img:hover{
+				filter: brightness(140%);
+			}
+			.E img:hover{
+				filter: brightness(140%);
+			}
+			.box_five{
+				width: 1080px;
+				height: 200px;
+				background-color: white;
+				float: left;
+				position: relative;
+				bottom: 435px;
+			}
+			.box_five{
+				text-align: center;
+				color: red;
+				float: left;
+			}
+			 .box_five .zuihouone {
+				font-size: 45px;
+			}
+			.box_five .zuihouone a:hover{
+				color: green;
+			}
+			.box_five .zuihoutwo a:hover{
+				color: green;
+			}
+			.box_five .zuihoufour a:hover{
+				color: green;
+			}
+			.box_five .zuihoutwo {
+				font-size: 25px;
+				position: relative;
+				top: 6px;
+			}
+			.box_five .zuihouthree {
+				color: red;
+				height: 2px;
+				width: 600px;
+				position: relative;
+				left: 240px;
+				top: 15px;
+			}
+			.box_five .zuihoufour {
+				font-size: 65px;
+				font-family: "bradley hand itc";
+				position: relative;
+				top: 20px;
+			}
+			.box_five a{
+				color: red;
+				text-decoration: none;
+			}
+			#z img{
+				height: 90px;
+				float: left;
+			}
+			#z img:hover{
+				filter: brightness(140%);
+			}
+			#z{
+				float: left;
+				position: relative;
+				top: -67px;
+			}
+			#x img{
+				height: 140px;
+				float: left;
+			}
+			#x img:hover{
+				filter: brightness(140%);
+			}
+			#x {
+				position: relative;
+				bottom: 117px;
+				left: 530px;
+			}
+			#c img{
+				float: left;
+				height: 140px;
+			}
+			#c {
+				position: relative;
+				bottom: 117px;
+				left: 410px;
+			}
+			#c img:hover{
+				filter: brightness(140%);
+			}
+			#v img{
+				height: 100px;
+				float: left;
+				position: relative;
+				bottom: 175px;
+				right: 550px;
+			}
+			#v img:hover{
+				filter: brightness(140%);
+			}
+			#b img{
+				height: 110px;
+				float: left;
+				position: relative;
+				bottom: 180px;
+				left: 4px;
+			}
+			#b img:hover{
+				filter: brightness(140%);
+			}
+			.foot{
+				width: 1080px;
+				height: 2611px;
+				background-color: #FF0000;
+				background-image: url(img/17.png);
+				background-size: 1080px ;
+			}
+			.foot .footzione{
+				color: white;
+				position: relative;
+				left: 130px;
+				float: left;
+				font-size: 48px;
+				font-family: 楷体;
+				bottom: 370px;
+			}
+			.foot .footzione a:hover{
+				color: black;
+			}
+			.foot .footzione a{
+				text-decoration: none;
+				color: white;
+			}
+			#mp4{
+				position: relative;
+				top: -300px;float: left;
+				left: 200px;
+			}
+			.hebei{
+				color: white;
+				font-size: 45px;position: relative;
+				bottom: 1700px;
+				font-family: 楷体;
+				left: 450px;
+			}
+			.hebei:hover{
+				color: black;
+			}
+			.qiuone{
+				position: relative;
+				bottom: 1658px;
+				left: 525px;
+				float: left;
+			}
+			.qiuone img{
+				height: 35px;
+			}
+			.qiuone img:hover{
+				filter: brightness(0%);
+			}
+			.shuxianone img{
+				position: relative;
+				bottom: 1625px;
+				left: 506.5px;
+				height: 430px;
+				float: left;
+				width: 5px;
+			}
+			.shuxianone img:hover{
+				filter: brightness(0%);
+			}
+			.changcheng{
+				position: relative;
+				bottom: 1559px;
+				left: 11px;
+				float: left;
+			}
+			.changcheng img{
+				height: 300px;
+				filter: brightness(120%);
+			}
+			.changcheng img:hover{
+				filter: brightness(140%);
+			}
+			.jieshao{
+				float: left;
+				color: white;
+				position: relative;
+				bottom: 1565px;
+				left: 97px;
+				font-family: 楷体;
+				font-size: 18px;
+			}
+			.jieshao:hover{
+				color: black;
+			}
+			.jieshaotwo{
+				float: left;
+				color:  white;
+				position: relative;
+				bottom: 1540px;
+				left: 100px;
+				font-family: 楷体;
+				font-size: 18px;
+			}
+			.jieshaotwo:hover{
+				color: black;
+			}
+			.hengxianone{
+				position: relative;
+				bottom: 1500.5px;
+				right: 223.5px;
+				float: left;
+			}
+			.hengxianone img{
+				height: 5px;
+				width: 280px;
+			}
+			.hengxianone img:hover{
+				filter: brightness(0%);
+			}
+			.bingma{
+				position: relative;
+				bottom: 1473px;
+				float: left;
+				right: 170px;
+			}
+			.bingma img{
+				height: 150px;
+				filter: brightness(110%);
+			}
+			.bingma img:hover{
+				filter: brightness(130%);
+			}
+			.shuxiantwo{
+				float: left;
+				position: relative;
+				bottom: 1484px;
+				right: 729px;
+			}
+			.shuxiantwo img{
+				height: 180px;
+				width: 5px;
+			}
+			.shuxiantwo img:hover{
+				filter: brightness(0%);
+			}
+			.hengxiantwo{
+				position: relative;
+				bottom: 1503px;
+				left: 267px;
+				float: left;
+			}
+			.hengxiantwo img{
+				height: 5px;
+				width: 280px;
+			}
+			.hengxiantwo img:hover{
+				filter: brightness(0%);
+			}
+			.fangtu{
+				position: relative;
+				float: left;
+				bottom: 1657px;
+				left: 580px;
+			}
+			.fangtu img{
+				height: 150px;
+				filter: brightness(120%);
+			}
+			.fangtu img:hover{
+				filter: brightness(160%);
+			}
+			.heshan{
+				color: white;
+				position: relative;
+				bottom: 1600px;
+				left: -120px;
+				font-size: 30px;
+				float: left;
+				font-family: 楷体;
+			}
+			.heshan:hover{
+				color: black;
+			}
+			.qiutwo{
+				position: relative;
+				bottom: 1599px;
+				float: left;
+				right: 111px;
+			}
+			.qiutwo img{
+				height: 35px;
+			}
+			.qiutwo img:hover{
+				filter: brightness(0%);
+			}
+			.shuxianthree{
+				float: left;
+				position: relative;
+				bottom: 1490px;
+				right: 132.5px;
+			}
+			.shuxianthree img{
+				width: 5px;
+				height: 100px;
+			}
+			.shuxianthree img:hover{
+				filter: brightness(0%);
+			}
+			.hengxianthree{
+				float: left;
+				position: relative;
+				bottom: 1406px;
+				right: 137px;
+			}
+			.hengxianthree img{
+				height: 5px;
+				width: 220px;
+			}
+			.hengxianthree img:hover{
+				filter: brightness(0%);
+			}
+			.shuxianfour{
+				float: left;
+				position: relative;
+				bottom: 1393.5px;
+				right: 140px;
+			}
+			.shuxianfour img{
+				width: 5px;
+				height: 80px;
+			}
+			.shuxianfour img:hover{
+				filter: brightness(0%);
+			}
+			.hengxianfour{
+				float: left;
+				position: relative;
+				bottom: 1414px;
+				right: 135px;
+			}
+			.hengxianfour img{
+				height: 5px;
+				width: 220px;
+			}
+			.hengxianfour img:hover{
+				filter: brightness(0%);
+			}
+			.yanzhi{
+				float: left;
+				position: relative;
+				bottom: 1455px;
+				left: -320px;
+				font-size: 30px;
+				font-family: 楷体;
+				color: white;
+			}
+			.yanzhi:hover{
+				color: black;
+			}
+			
+			.qiuthree{
+				position: relative;
+				bottom: 1491px;
+				float: left;
+				right: -106px;
+			}
+			.qiuthree img{
+				height: 35px;
+			}
+			.qiuthree img:hover{
+				filter: brightness(0%);
+			}
+			.shuxianfive{
+				float: left;
+				position: relative;
+				bottom: 1436px;
+				left: 79px;
+			}
+			.shuxianfive img{
+				width: 5px;
+				height: 550px;
+			}
+			.shuxianfive img:hover{
+				filter: brightness(0%);
+			}
+			.aa{
+				position: relative;
+				bottom: 1300px;
+				left: -418px;
+				float: left;
+			}
+			.aa img{
+				width: 235px;
+				filter: brightness(110%);
+			}
+			.aa img:hover{
+				filter: brightness(130%);
+			}
+			.bb{
+				position: relative;
+				bottom: 1100px;
+				left: -652px;
+				float: left;
+			}
+			.bb img{
+				width: 235px;
+				filter: brightness(110%);
+			}
+			.bb img:hover{
+				filter: brightness(130%);
+			}
+			.meihua{
+				position: relative;
+				float: left;
+				bottom: 1711px;
+				right: 427px;
+			}
+			.meihua img{
+				width: 500px;
+				filter: brightness(110%);
+			}
+			.meihua img:hover{
+				filter: brightness(130%);
+			}
+			.box_hu{
+				width: 245px;
+				height: 156.5px;
+				float: left;
+				position: relative;
+				bottom: 1670px;
+				right: 172px;
+			}
+			.box_hu p{
+				font-family: 楷体;
+				font-size: 17px;
+				color: white;
+			}
+			
+			.box_hu p:hover{
+				color: black;
+			}
+			.hua{
+				padding-top: 15px;
+			}
+			.hub{
+				padding-top: 15px;
+			}
+			.huc{
+				padding-top: 15px;
+			}
+			.hud{
+				padding-top: 15px;
+			}
+			.box_qiao{
+				width: 245px;
+				height: 156.5px;
+				float: left;
+				position: relative;
+				bottom: 1470px;
+				right: 417px;
+			}
+			.box_qiao p{
+				font-family: 楷体;
+				font-size: 17px;
+				color: white;
+			}
+			.box_qiao p:hover{
+				color: black;
+			}
+			.qiaoa{
+				padding-top: 15px;
+			}
+			.qiaob{
+				padding-top: 15px;
+			}
+			.qiaoc{
+				padding-top: 15px;
+			}
+			.qiaod{
+				padding-top: 15px;
+			}
+			.meihuatwo{
+				float: left;
+				position: relative;
+				bottom: 1900px;
+				left: 550px;
+			}
+			.meihuatwo img{
+				filter: brightness(115%);
+			}
+			.meihuatwo img:hover{
+				filter: brightness(135%);
+			}
+			.qiuqiu{
+				float: left;
+				position: relative;
+				bottom: 1442px;
+				right: 242px;
+			}
+			.qiuqiu img{
+				height: 35px;
+				
+			}
+			.qiuqiu img:hover{
+				filter: brightness(0%);
+			}
+			.guade{
+				float: left;
+				position: relative;
+				bottom: 1670px;
+				right: 36px;
+				filter: brightness(120%);
+			}
+			.guade img:hover{
+				filter: brightness(190%);
+			}
+			.tfoot{
+				width: 1080px;
+				height: 220px;
+				background-image: url(img/46.png);
+				float: left;
+				position: relative;
+				bottom: 1550px;
+
+			}
+			.tfoot ul{
+				padding-left: 60px;
+				padding-top: 50px;
+			}
+			.tfoot ul li{
+				float: left;
+				list-style: none;
+				width: 120px;
+			}
+			.tfoot ul li a{
+				color: white;
+				text-decoration: none;
+				font-size: 20px;
+			}
+			.tfoot ul li a:hover{
+				color: greenyellow;
+			}
+			.tfoot>p{
+				font-size: 20px;
+				color: white;
+				position: relative;
+				top: 45px;
+				right: 480px;
+			}
+			.tfoot>p:hover{
+				color: greenyellow;
+			}
+			#ax{
+				position: relative;
+				left: 60px;
+				top: 65px;
+			}
+			#ax:hover{
+				position: relative;
+			}
+			.erweima{
+				float: left;
+				position: relative;
+				left: 920px;
+				bottom: 40px;
+			}
+			.erweima img{
+				height: 110px;
+			}
+			.erweima p{
+				color: white;
+				font-size: 20px;
+				position: relative;
+				bottom: 149px;
+				left: 15px;
+			}
+			.erweima p:hover{
+				color: greenyellow;
+			}
+			.logo{
+				height: 60px;
+				width: 300px;
+				float: left;
+				margin-left: 485px;
+				position: relative;
+				bottom:30px;
+			}
+			.logo p{
+				color: white;
+				padding-left: 130px;
+				padding-bottom: 32px;
+				font-size: 20px;
+			}
+			.logo p:hover{
+				color: greenyellow;
+			}
+			.logo img{
+				float: left;
+				height: 50px;
+				padding-left: 10px;
+			}
+			.logo img{
+				filter: brightness(130%);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="father"><!-- 父盒子开始 -->
+		<!-- --------------------------------------- -->
+			<div class="box_one">
+				<div class="imgleft"><img src="img/3.png" ></div>
+				<div class="imgright"><img src="img/3.png" ></div>
+				<div class="danghang"><ul>
+					<li><a href="demo_one.html">网站首页</a></li>
+					<li><a href="demo_two.html">风景介绍</a></li>
+					<li><a href="demo_three.html">春节特色</a></li>
+					<li><a href="demo_four.html">畅玩河北</a></li>
+					<li><a href="demo_five.html">民俗文化</a></li>
+				</ul>
+				</div>
+			</div>
+			<!-- --------------------------------------- -->
+			<div class="box_two">
+				<div class="box_twoimg"><img src="img/7.png" >
+				<div class="box_twoimgA"><img src="img/9.png" ></div>
+				<div class="box_three"><img src="./img/10.png" ></div>
+				<div class="box_four"><img src="./img/10.png" ></div>
+			</div>
+			<!-- --------------------------------------- -->
+			<div class="box_wither">
+				<p class="zia"><a href="https://baike.baidu.com/item/%E6%98%A5%E8%8A%82/136876?fr=aladdin">新春佳节</a></p>
+				<p class="zib"><a href="http://www.kuwo.cn/play_detail/22801600?from=baidu">家兴&nbsp;国兴&nbsp;事事兴&nbsp;&nbsp;&nbsp;家园&nbsp;国园&nbsp;事事园&nbsp;&nbsp;&nbsp;</a>
+				
+				</p>
+				<hr class="xian" color="red" style="text-align: center;" size="3">
+				<p class="zic"><a href="https://fanyi.baidu.com/?aldtype=85#en/zh/Spring%20Festival">spring&nbsp;&nbsp;&nbsp; festival</a></p>
+				<div class="fu"><img src="img/2.png" ></div>
+				<div class="futwo"><img src="img/2.png" ></div>
+			</div>
+			<div id="q"><img src="img/12.png" ></div>
+			<div id="w"><img src="img/13.png" ></div>
+			<div id="e"><img src="img/14.png" ></div>
+			<div id="r"><img src="img/15.png" ></div>
+			<div id="t"><img src="img/16.png" ></div>
+			<!-- --------------------------------------- -->
+			<div class="body">
+				<div class="body_img"><img src="img/17.png" ></div>
+				<div id="y"><img src="img/20.png" ></div>
+				<div id="u"><img src="img/18.png" ></div>
+				<div id="i"><img src="img/21.png" ></div>
+				<div id="yy"><img src="img/22---2.png" ></div>
+				<div id="uu"><img src="img/22---2.png" ></div>
+				<div id="ii"><img src="img/22---2.png" ></div>
+				<p id="one"><a href="https://baijiahao.baidu.com/s?id=1656117869543955388&wfr=spider&for=pc">走亲访友</a></p>
+				<p id="two"><a href="https://baike.baidu.com/item/%E5%90%83%E9%A5%BA%E5%AD%90/4213360?fr=aladdin">吃饺子</a></p>
+				<p id="three"><a href="https://www.tuliu.com/read-22272.html">瑞雪兆丰年</a></p>	
+				<div id="fua"><img src="img/25.png" ></div>
+				<div id="fub"><img src="img/25.png" ></div>
+				<div id="fuc"><img src="img/25.png" ></div>
+				</div>
+			<!-- --------------------------------------- -->
+				<div class="box_withertwo">
+					<span id="xione"><a href="https://baike.baidu.com/item/%E6%B2%B3%E5%8C%97%E6%A2%86%E5%AD%90/332095?fr=aladdin">河北梆子</a></span>
+					<br>
+					<span id="xitwo">
+						<a href="https://baike.baidu.com/item/%E7%94%9F%E8%A7%92/4097035?fr=aladdin">生&nbsp;&nbsp;</a>
+						<a href="https://baike.baidu.com/item/%E6%97%A6%E8%A7%92/1139163?fr=aladdin">旦&nbsp;&nbsp;</a>
+						<a href="https://baike.baidu.com/item/%E5%87%80%E8%A7%92/6910938?fr=aladdin">净&nbsp;&nbsp;</a>
+						<a href="https://baike.baidu.com/item/%E6%9C%AB%E8%A7%92/3500839?fr=aladdin">末&nbsp;&nbsp;</a>
+						<a href="https://baike.baidu.com/item/%E4%B8%91%E8%A7%92/33760?fr=aladdin">丑</a>
+						</span>
+					<hr id="xithree" color="red" size="2">
+					<span id="xifour">
+						<a href="https://www.quword.com/fanyi?word=%E6%B2%B3%E5%8C%97%E6%A2%86%E5%AD%90">
+							Hebei&nbsp;&nbsp;clapper</a>
+						</span>
+				</div>
+						<div class="dongman"><img src="img/27.png" ></div>
+						<div class="dongmantwo"><img src="img/27.png" ></div>
+						<div class="duilianone"><img src="img/28.png" ></div>
+						<div class="duiliantwo"><img src="img/29.png" ></div>
+				<!-- --------------------------------------- -->
+				<div id="fiveimg">
+					<div class="xia"><img src="img/生角.png" ></div>
+					<div class="xib"><img src="./img/旦角.jpeg" ></div>
+					<div class="xic"><img src="img/净角.jpeg" ></div>
+					<div class="xid"><img src="img/末角.jpeg" ></div>
+					<div class="xie"><img src="img/丑角.jpeg" ></div>
+					<div class="A"><img src="./img/a.jpeg.png" ></div>
+					<div class="B"><img src="img/b.png" ></div>
+					<div class="C"><img src="img/c.png" ></div>
+					<div class="D"><img src="img/d.png" ></div>
+					<div class="E"><img src="img/e.png" ></div>
+				</div>
+				<!-- --------------------------------------- -->
+				<div class="box_five">
+					<p class="zuihouone"><a href="https://baike.baidu.com/item/%E9%AD%85%E5%8A%9B%E6%B2%B3%E5%8C%97/11014899?fr=aladdin">魅力河北</a></p>
+					<p class="zuihoutwo">
+						<a href="https://baijiahao.baidu.com/s?id=1623050649102256990&wfr=spider&for=pc">那些穿行在闹市街头的车水马龙&nbsp;&nbsp;&nbsp;浅浅的记忆</a>
+						</p>
+					<hr class="zuihouthree" color="red">
+					
+					<p class="zuihoufour">
+						<a href="http://deyu.zaixian-fanyi.com/fan_yi_1105033">Charm Hebei</a>
+						</p>
+						<div id="z"><img src="img/30.png" ></div>
+						<div id="x"><img src="img/31.png" ></div>
+						<div id="c"><img src="img/31.png" ></div>
+						<div id="v"><img src="img/32.png" ></div>
+						<div id="b"><img src="img/33.png" ></div>
+						<img src="" >
+				</div>
+				<!-- --------------------------------------- -->
+				<div class="foot">
+						<span class="footzione">
+							<a href="https://baijiahao.baidu.com/s?id=1630863589472714510&wfr=spider&for=pc">离家的路有千万条，回家的路只有一条。</a>
+							</span>
+<video  controls="controls" width="700px" id="mp4">
+						<source src="mp4/央视春节公益广告《回家篇》之《家乡的滋味》-超清720P.mp4"></source>
+					</video>
+				</div>
+				<div class="zzz">
+					<p class="hebei">走进河北</p>
+					<div class="qiuone"><img src="img/36.png" ></div>
+					<div class="shuxianone"><img src="img/竖线.png" ></div>
+					<div class="changcheng"><img src="img/37.png" ></div>
+					<p class="jieshao">&nbsp;&nbsp;&nbsp;&nbsp;河北，简称“冀”，是中华人民共和国省级行政区，<br>省会石家庄。位于中国华北地区，界于北纬36°05′-42，<br>°，40′，东经113°27′-119°50′之间，环抱首都北，<br>京，，东与天津毗连并紧傍渤海，河南两省，西倚太行，<br>山与，山西为邻，西北部、北部与内蒙古交界，东北部与，<br>辽宁接壤，总面积18.88万平方千米。截至2020年11月1日，<br>零时，河北省常住人口7461.0235万人 。</p><br>
+					<p class="jieshaotwo">&nbsp;&nbsp;&nbsp;&nbsp;河北地处华北平原，东临渤海、内环京津，西为，太<br>行山，北为燕山，燕山以北为张北高原，是中国唯，一兼<br>有高原、山地、丘陵、平原、湖泊和海滨的省份。地跨海<br>河、滦河两大水系。河北省地处温带大陆性季风气候；地<br>处沿海开放地区，是中国经济由东向西梯次推进发展的东<br>部地带，是中国重要粮棉产区。2017年4月，中共中央、<br>国务院决定设立河北雄安新区。</p><br>
+					<div class="hengxianone"><img src="img/横线.png" ></div>
+					<div class="bingma"><img src="img/38.png" ></div>
+					<div class="shuxiantwo"><img src="img/竖线.png" ></div>
+					<div class="hengxiantwo"><img src="img/横线.png" ></div>
+					<div class="fangtu"><img src="img/39.png" ></div>
+					<p class="heshan">大好河山大境门</p>
+					<div class="qiutwo"><img src="img/36.png" ></div>
+					<div class="shuxianthree">
+						<img src="img/竖线.png" ></div>
+					<div class="hengxianthree">
+						<img src="img/横线.png" >
+					</div>
+					<div class="shuxianfour">
+						<img src="img/竖线.png" >
+					</div>
+					<div class="hengxianfour">
+						<img src="img/横线.png" >
+					</div>
+					<p class="yanzhi">河北颜如画</p>
+				</div>
+				<div class="qiuthree"><img src="img/36.png" ></div>
+				<div class="shuxianfive"><img src="img/竖线.png" ></div>
+				<div class="aa"><img src="img/41.png" ></div>
+				<div class="bb"><img src="img/40.png" ></div>
+				<div class="meihua"><img src="img/43.png" ></div>
+				<div class="box_hu">
+					<p class="hua">河北龙舟邀请赛圆满落幕&nbsp;&nbsp;10.2</p>
+					<p class="hub">生态旅游引客来&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.4</p>
+					<p class="huc">我县加快旅游项目建设&nbsp;&nbsp;&nbsp;&nbsp;10.4</p>
+					<p class="hud">文竹镇：格桑花开引客来&nbsp;&nbsp;10.6</p>
+				</div>
+				
+				<div class="box_qiao">
+					<p class="qiaoa">赵州桥园“赏茶”游&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.1</p>
+					<p class="qiaob">赵州桥乡村旅游渐成气候&nbsp;&nbsp;10.3</p>
+					<p class="qiaoc">附近乡村旅游“格”外红&nbsp;&nbsp;10.4</p>
+					<p class="qiaod">旅游出现“万人游”盛况&nbsp;&nbsp;10.6</p>
+				</div>
+				<div class="meihuatwo"><img src="img/44.png" ></div>
+				<div class="qiuqiu"><img src="img/36.png" ></div>
+				<div class="guade"><img src="img/45.png" ></div>
+				<!-- --------------------------------------- -->
+				<div class="tfoot">
+					<ul>
+						<li><a href="#">联系客服</a></li>
+						<li><a href="#">官方微博</a></li>
+						<li><a href="#">友情链接</a></li>
+						<li><a href="#">帮助</a></li>	
+					</ul>
+					<p>0372-6286295</p>
+					<p id="ax">
+						ICP备案序号：豫ICP备08001069-2号&nbsp;&nbsp;&nbsp;&nbsp;访问量：1518893</p>
+					<div class="erweima"><img src="img/二维码.jpg" >
+					<p class="guanzhu">关注我们</p>
+					
+					</div>
+					
+					<div class="logo">
+						<p>分享至</p>
+						<img src="img/微博.png" >
+						<img src="img/QQ.png" >
+						<img src="./img/QQ空间.png" >
+						<img src="./img/微信.png" >
+						<img src="./img/朋友圈.png" >
+					</div>
+				</div>
+				
+				
+				<!-- --------------------------------------- -->
+				
+				
+		</div><!-- 父盒子结束 -->
+	</body>
+</html>
